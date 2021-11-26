@@ -46,7 +46,7 @@ if __name__=="__main__":
     print(vertices)
     for each in vertices.points:
         arr.append([each.x,each.y,each.z])
-    np.save("array1",arr)
+    np.save("array2",arr)
 
 
     print("done")
